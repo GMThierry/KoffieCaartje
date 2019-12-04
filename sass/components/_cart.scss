@@ -1,0 +1,141 @@
+.customCartItem {
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.08);
+    position: relative;
+    display: block;
+    padding: 40px;
+    box-sizing: border-box;
+		min-height: 440px;
+
+		img{
+      max-height: 200px;
+      max-width: 100%;
+      height: auto;
+      width: auto;
+		}
+
+		a.remove {
+	    font-size: 2em;
+	    text-decoration: none;
+			float: right;
+      line-height: 15px;
+      z-index: 1;
+      position: relative;      
+		}
+
+    .product-thumbnail {
+      margin-bottom: 20px;
+    }
+
+		.product-name a {
+			font-size: $font-size-h4;
+			font-family: $font-family-primary;
+			color: $brand-primary;
+		}
+
+    .product-quantity {
+
+      margin-top:20px;
+      font-size: 0;
+
+      .quantity {
+        font-size: 16px;
+      }
+
+    }
+
+
+
+    .product-subtotal {
+      clear: both;
+    }
+}
+
+.woocommerce-cart-form__cart-item.col-sm-6.cart_item{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+p.cart-empty {
+  display: none;
+}
+p.return-to-shop {
+  min-height: 25vh;
+}
+
+.woocommerce-cart {
+
+  .woocommerce {
+    width: 100%;
+    padding:0px 0 100px 0;
+    // padding:0;
+    display: inline-block;
+  }
+  .cart-collaterals {
+    display: block;
+    margin-top: 117px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    padding: 12%;
+    border-radius: $border-radius-base;
+    background: #f8f8f8;
+    min-height: 440px;
+
+      h2 {
+        margin-top: 0;
+      }
+      input#coupon_code {
+        height: 40px;
+        width: 55%;
+        padding-right: 0;
+        padding-left: 10px;
+        border: 1px solid #e4e4e4;
+        border-radius: 5px 0 0 5px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      button.apply_coupon {
+        min-height: auto;
+        width: 45%;
+        border-radius: 0 5px 5px 0;
+        padding: 8px 10px;
+        margin-left: -5px;
+        /* margin-top: 1px; */
+      }
+      p.woocommerce-shipping-destination, form.woocommerce-shipping-calculator {
+        display: none;
+      }
+
+      table.shop_table {
+
+        tr.woocommerce-shipping-totals th {
+          vertical-align: baseline;
+        }
+
+        tr td:nth-child(2) {
+          padding-left:10px;
+        }
+
+        #shipping_method {
+          list-style-type: none;
+          padding-left:0;
+
+          label[for="shipping_method_0_flat_rate1"]{
+            font-size:0;
+
+            span{
+              font-size:16px;
+            }
+          }
+        }
+      }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  span.cart-contents-count {
+    padding: 0px 6px;
+  }
+}

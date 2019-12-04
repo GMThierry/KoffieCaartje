@@ -1,0 +1,101 @@
+#footer-sidebar {
+  background-color: $brand-primary;
+  color:#fff;
+  padding:80px 0;
+}
+
+#footer-sidebar h4 {
+  color:#fff;
+}
+
+#footer-sidebar3 a {
+  display: block;
+  color: #fff;
+}
+
+.site-info {
+  padding:20px 0;
+  background-color:transparent;
+
+  p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 36px;
+    margin-bottom: 0;
+    color: #545454;
+  }
+}
+
+.site-info #left {
+  text-align: left;
+  width:70%;
+  float:left;
+  display: inline-block;
+}
+.site-info #right {
+  text-align: right;
+  width:30%;
+  display: inline-block;
+}
+
+/*--------------- Footer ------------------*/
+#colophon{
+	background-color: $brand-primary;
+}
+
+#colophon #footer-socials img {
+  object-fit: cover;
+  max-width: 46%;
+}
+
+#colophon #footer-socials p a:last-child img {
+	/* max-width: 28%; */
+	margin-right: 0%;
+}
+
+#colophon #footer-logo img {
+  max-width: 240px !important;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.footerBol {
+  height: auto;
+  max-width: 100%;
+}
+
+#footer-logo h3, #footer-location h3, #footer-socials h3, #footer-contact h3{
+	color: #FFFFFF;
+}
+
+#colophon p{
+	color: #FEFEFE;
+}
+
+#colophon a{
+	color: $brand-tertiary;
+}
+
+@media screen and (max-width: 767px) {
+  #footer-sidebar .container .row > div {
+    margin-bottom: 20px;
+  }
+  #footer-sidebar .container .row > div:last-child {
+    margin-bottom: 0px;
+  }
+  #colophon #footer-logo img {
+    max-width: 200px !important;
+    margin-bottom: 20px;
+    margin-left: 0;
+    transform: none;
+  }
+  #footer-location h3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  img.footerBol {
+      margin-bottom: -9px;
+  }
+}

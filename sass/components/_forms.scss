@@ -1,0 +1,115 @@
+// Forms
+
+.wpcf7 input, .wpcf7 textarea {
+	min-height:45px;
+	width:100%;
+	padding:12px 15px;
+	border-radius: 5px;
+	background: #fff;
+	border: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+.wpcf7 textarea {
+	min-height: 80px;
+	height: 169px;
+	max-height: 200px;
+}
+
+input.wpcf7-submit {
+	border:0 !important;
+	border-radius: 5px;
+	background: $brand-primary !important;
+	color:#fff !important;
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding:13px 0px;
+	max-width:140px;
+}
+
+
+/*-------------- Forms ---------------*/
+
+.wpcf7-form {
+
+}
+
+.wpcf7-form p {
+	margin-bottom: 15px;
+}
+
+span.wpcf7-form-control-wrap input, span.wpcf7-form-control-wrap textarea, .woocommerce-input-wrapper input {
+	border-radius: 10px;
+	border: 0.5px solid #bababa;
+	min-height:55px;
+	padding:13px 20px;
+	width:100%;
+	font-family: Montserrat;
+	font-weight: normal;
+	color: #000000;
+	opacity: 0.7;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+    display: flex !important;
+}
+
+.wpcf7 input, .wpcf7 textarea {
+  margin-bottom: 0px;
+}
+
+p.extended {
+  display: none;
+}
+
+span.wpcf7-form-control-wrap input.wpcf7-file {
+  border-radius: 0;
+  border:0;
+  padding:0;
+}
+
+span.wpcf7-form-control-wrap input.extended, span.wpcf7-form-control-wrap textarea.extended {
+	display: none;
+  margin-top:9px;
+}
+
+span.wpcf7-form-control-wrap.your-message textarea {
+	height:198px;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+	font-size: 14px;
+	height: 45px;
+	padding: 10px 40px;
+	border:0;
+	border-radius: 40px;
+	font-family: "Montserrat";
+	font-weight: bold;
+	background-color: #233A86;
+	color: #fff;
+	cursor: pointer;
+}
+
+#formLeft {
+  width: 48%;
+  float: left;
+  margin-right:3%;
+}
+
+#formRight {
+  width: 48%;
+  float: left;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+	max-width: 240px;
+	float: right;
+	margin-top: 15px;
+}
+
+@media (max-width: 575px){
+  #formLeft, #formRight {
+    width: 100%;
+  }
+}

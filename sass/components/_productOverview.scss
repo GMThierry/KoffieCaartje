@@ -1,0 +1,32 @@
+
+.single-product div.product {
+
+  display: block !important;
+
+  .productOverview {
+    padding: 40px 0;
+
+    #wooswipe {
+      max-width: 100vw !important;
+    }
+  }
+}
+
+#usps p {
+  font-size: 0.8em;
+  line-height: 24px;
+}
+
+#usps img {
+  max-width: 25px;
+  height: auto;
+  margin-right: .25rem!important;
+}
+
+.woocommerce-message{
+	margin-top: 40px;
+}
+
+.woocommerce-message, .woocommerce-info, .woocommerce-error, .woocommerce-noreviews, p.no-comments {
+    font-family: "GraublauWeb";
+}

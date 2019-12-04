@@ -1,0 +1,23 @@
+#contact {
+  padding:120px;
+}
+
+#contact .mt-0 h2 {
+  margin-top: 0;
+}
+
+#contact form.wpcf7-form {
+  padding-right: 50px;
+}
+
+#contact #contactInfo {
+  padding: 50px;
+  border-radius: $border-radius-base;
+  background: $brand-primary;
+  color:#fff;
+}
+
+#contact #contactInfo a {
+  display: block;
+  color: #fff;
+}

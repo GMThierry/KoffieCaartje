@@ -1,0 +1,15 @@
+#socials {
+  padding:120px 0 120px 0;
+
+
+  #sb_instagram .sbi_photo {
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@media only screen and (max-width: 480px){
+  #sb_instagram #sbi_images {
+    padding: 15px 5px !important;
+  }
+}

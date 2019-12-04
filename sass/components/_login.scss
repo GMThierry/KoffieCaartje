@@ -1,0 +1,30 @@
+/*----------------- LOGINFORM ----------------*/
+.theChampLogin {
+    width: 100% !important;
+		color: #FFFFFF;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 35px;
+}
+
+ul.the_champ_login_ul li {
+	  float: unset !important;
+}
+
+.loginAndRegister button, .loginAndRegister input {
+	margin: 0 auto;
+}
+
+.loginAndRegister button {
+	width: 300px;
+	height: 40px;
+}
+
+.loginAndRegister .registerColumn {
+  display: none;
+}
+
+.theChampGoogleLoginSvg{
+	color: $brand-primary;
+}

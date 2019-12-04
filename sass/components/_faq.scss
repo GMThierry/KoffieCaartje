@@ -1,0 +1,68 @@
+#faq {
+  padding:100px 0 60px 0;
+}
+
+#faq .rightBlock > .vc_column-inner > .wpb_wrapper {
+  background-color: #F1F3F7;
+  padding-bottom:45px;
+  border-radius: 10px;
+}
+
+#faq .faqBlock .vc_column-inner {
+  padding:15px 50px;
+  border-radius: $btn-border-radius-base;
+  background: #f8f8f8;
+  width: 100%;
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+#faq .faqBlock h2 {
+  // font-family: "Chamfort Family";
+  font-weight: bold;
+  font-size: 20px !important;
+  text-transform: uppercase;
+  color: $brand-primary;
+}
+
+// #faq .vc_row {
+//   display: table;
+// }
+//
+// #faq .vc_row [class*="col-"] {
+//   float: none;
+//   display: table-cell;
+//   vertical-align: top;
+// }
+
+.vc_toggle {
+  margin-bottom: 15px !important;
+}
+
+.vc_toggle_default .vc_toggle_icon {
+  border: 0 !important;
+}
+.vc_toggle_size_md.vc_toggle_default .vc_toggle_icon {
+  height: 2px !important;
+}
+.vc_toggle.vc_toggle_default .vc_toggle_icon::before {
+  width: 2px !important;
+}
+
+@media (min-width: 768px) {
+  #faq .faqBlock .vc_column-inner {
+    // display: flex;
+    // display: -webkit-flex;
+    // flex-wrap: wrap;
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+	#faq .vc_row {
+		margin-bottom: 0px !important;
+	}
+	#faq .faqBlock {
+		margin-bottom: 30px;
+	}
+}
